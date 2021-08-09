@@ -1,0 +1,214 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/bgall"
+    android:layout_height="match_parent"
+    tools:context=".Dsa">
+
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginBottom="4dp"
+        android:src="@drawable/dsa"
+        android:layout_gravity="center"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Data Structures Coding Stuff"
+        android:textColor="#0E1843"
+        android:layout_gravity="center"
+        android:textSize="22sp" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="20dp"
+        android:layout_marginTop="40dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:layout_marginTop="30dp"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/btn21"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Stack"
+                android:textColor="#2aa5ec"
+                android:padding="5dp"
+                />
+
+            <TextView
+                android:id="@+id/tv21"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:scrollbars="vertical"
+                android:layout_gravity="center"
+                android:visibility="gone"
+                android:padding="5dp"
+                />
+
+            <Button
+                android:id="@+id/btn22"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#2aa5ec"
+                android:text="Queue"
+                android:textColor="#ffff"
+                android:padding="5dp"
+                />
+
+            <TextView
+                android:id="@+id/tv22"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:scrollbars="vertical"
+                android:layout_gravity="center"
+                android:visibility="gone"
+                android:padding="5dp"
+                />
+
+            <Button
+                android:id="@+id/btn23"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Circular Queue"
+                android:textColor="#2aa5ec"
+                android:padding="5dp"
+                />
+
+            <TextView
+                android:id="@+id/tv23"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:scrollbars="vertical"
+                android:layout_gravity="center"
+                android:visibility="gone"
+                android:padding="5dp"
+                />
+
+            <Button
+                android:id="@+id/btn24"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#2aa5ec"
+                android:text="Linked List Operations"
+                android:textColor="#ffff"
+                android:padding="5dp"
+                />
+
+            <TextView
+                android:id="@+id/tv24"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:scrollbars="vertical"
+                android:layout_gravity="center"
+                android:visibility="gone"
+                android:padding="5dp"
+                />
+
+            <Button
+                android:id="@+id/btn25"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Tree Operations"
+                android:textColor="#2aa5ec"
+                android:padding="5dp"
+                />
+
+            <TextView
+                android:id="@+id/tv25"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:scrollbars="vertical"
+                android:layout_gravity="center"
+                android:visibility="gone"
+                android:padding="5dp"
+                />
+
+            <Button
+                android:id="@+id/btn26"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#2aa5ec"
+                android:text="Tree Traversals"
+                android:textColor="#ffff"
+                android:padding="5dp"
+                />
+
+            <TextView
+                android:id="@+id/tv26"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:scrollbars="vertical"
+                android:layout_gravity="center"
+                android:visibility="gone"
+                android:padding="5dp"
+                />
+
+            <Button
+                android:id="@+id/btn27"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Binary Search Tree (BST)"
+                android:textColor="#2aa5ec"
+                android:padding="5dp"
+                />
+
+            <TextView
+                android:id="@+id/tv27"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:scrollbars="vertical"
+                android:layout_gravity="center"
+                android:visibility="gone"
+                android:padding="5dp"
+                />
+
+            <Button
+                android:id="@+id/btn28"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#2aa5ec"
+                android:text="Depth First Search (DFS)"
+                android:textColor="#ffff"
+                android:padding="5dp"
+                />
+
+            <TextView
+                android:id="@+id/tv28"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:scrollbars="vertical"
+                android:layout_gravity="center"
+                android:visibility="gone"
+                android:padding="5dp"
+                />
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#ffff"
+                android:padding="5dp"
+                />
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#ffff"
+                android:padding="5dp"
+                />
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>

@@ -1,0 +1,38 @@
+#include<iostream>
+using namespace std;
+
+int main()
+{
+	int n,i, insertIndex ,item, arr[50];
+	cout<<"Enter total Number of elements: ";
+	cin>>n;
+	cout<<"Enter Array elements!!!"<<endl;
+	for(i=0; i<n; i++)
+	{
+		cin>>arr[i];
+	}
+	cout<<endl;
+	
+	cout<<"Sorting array elements Using Insertion Sort: "<<endl;
+	for(i=1; i<n; i++)
+	{
+		item = arr[i];
+		insertIndex = i;
+		
+		while((insertIndex > 0) && (arr[insertIndex - 1] > item))
+		{
+			//replace it in insertIndex place
+			arr[insertIndex] = arr[insertIndex - 1];
+			//decrement the insertIndex for further comparisons
+			insertIndex--;
+		}
+		//insert item at right place
+		arr[insertIndex] = item;
+	}
+	
+	cout<<"Sorted List: "<<endl;
+	for(i=0; i<n; i++)
+	{
+		cout<<arr[i]<<endl;
+	}
+}

@@ -1,0 +1,270 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/bgall"
+    android:layout_marginBottom="5dp"
+    android:layout_height="match_parent"
+    tools:context=".Cpp">
+
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginBottom="4dp"
+        android:src="@drawable/cplus"
+        android:layout_gravity="center"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="C++ Basic Programming Practice"
+        android:textColor="#0E1843"
+        android:textSize="22sp"
+        android:layout_gravity="center"
+        />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:layout_marginTop="40dp"
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:layout_marginTop="30dp"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/one"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Hello World Program"
+                android:textColor="#2aa5ec"
+                android:padding="5dp"
+                />
+
+            <TextView
+                android:id="@+id/tv1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:scrollbars="vertical"
+                android:layout_gravity="center"
+                android:visibility="gone"
+                android:padding="5dp"
+                />
+
+            <Button
+                android:id="@+id/two"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#2aa5ec"
+                android:text="Print Number Entered by the User"
+                android:textColor="#ffff"
+                android:padding="5dp"
+                />
+
+            <TextView
+                android:id="@+id/tv2"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:scrollbars="vertical"
+                android:layout_gravity="center"
+                android:visibility="gone"
+                android:padding="5dp"
+                />
+
+            <Button
+                android:id="@+id/three"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Program to Add Two Integers"
+                android:textColor="#2aa5ec"
+                android:padding="5dp"
+                />
+
+            <TextView
+                android:id="@+id/tv3"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:scrollbars="vertical"
+                android:layout_gravity="center"
+                android:visibility="gone"
+                android:padding="5dp"
+                />
+
+            <Button
+                android:id="@+id/four"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#2aa5ec"
+                android:text="Compute quotient and remainder"
+                android:textColor="#ffff"
+                android:padding="5dp"
+                />
+
+            <TextView
+                android:id="@+id/tv4"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:scrollbars="vertical"
+                android:layout_gravity="center"
+                android:visibility="gone"
+                android:padding="5dp"
+                />
+
+            <Button
+                android:id="@+id/five"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Find Size of a Variable"
+                android:textColor="#2aa5ec"
+                android:padding="5dp"
+                />
+
+            <TextView
+                android:id="@+id/tv5"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:scrollbars="vertical"
+                android:layout_gravity="center"
+                android:visibility="gone"
+                android:padding="5dp"
+                />
+
+            <Button
+                android:id="@+id/six"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#2aa5ec"
+                android:text="Swap Numbers (Using Temporary Variable)"
+                android:textColor="#ffff"
+                android:padding="5dp"
+                />
+
+            <TextView
+                android:id="@+id/tv6"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:scrollbars="vertical"
+                android:layout_gravity="center"
+                android:visibility="gone"
+                android:padding="5dp"
+                />
+
+            <Button
+                android:id="@+id/seven"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Check Whether Number is Even or Odd using if else"
+                android:textColor="#2aa5ec"
+                android:padding="5dp"
+                />
+
+            <TextView
+                android:id="@+id/tv7"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:scrollbars="vertical"
+                android:layout_gravity="center"
+                android:visibility="gone"
+                android:padding="5dp"
+                />
+
+            <Button
+                android:id="@+id/eight"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#2aa5ec"
+                android:text="Check Vowel or a Consonant Manually"
+                android:textColor="#ffff"
+                android:padding="5dp"
+                />
+
+            <TextView
+                android:id="@+id/tv8"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:scrollbars="vertical"
+                android:layout_gravity="center"
+                android:visibility="gone"
+                android:padding="5dp"
+                />
+
+            <Button
+                android:id="@+id/nine"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Find Largest Number Using if...else Statement"
+                android:textColor="#2aa5ec"
+                android:padding="5dp"
+                />
+
+            <TextView
+                android:id="@+id/tv9"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:scrollbars="vertical"
+                android:layout_gravity="center"
+                android:visibility="gone"
+                android:padding="5dp"
+                />
+
+            <Button
+                android:id="@+id/ten"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#2aa5ec"
+                android:text="Simple Calculator using switch statement"
+                android:textColor="#ffff"
+                android:padding="5dp"
+                />
+
+            <TextView
+                android:id="@+id/tv10"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:scrollbars="vertical"
+                android:layout_gravity="center"
+                android:visibility="gone"
+                android:padding="5dp"
+                />
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#ffff"
+                android:padding="5dp"
+                />
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#ffff"
+                android:padding="5dp"
+                />
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#ffff"
+                android:padding="5dp"
+                />
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#ffff"
+                android:padding="5dp"
+                />
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>

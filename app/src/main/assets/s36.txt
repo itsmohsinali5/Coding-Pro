@@ -1,0 +1,61 @@
+#include<iostream>
+using namespace std;
+
+int main()
+{
+	int n , i , arr[50], b[50];
+	int count[50] = {0};
+	int max = 9;
+	cout<<"Enter total Number of elements: ";
+	cin>>n;
+	cout<<"Enter Array elements!!!"<<endl;
+	for(int i=0; i<n; i++)
+	{
+		cin>>arr[i];
+	}
+	cout<<endl;
+	
+	cout<<"Array Before Sort"<<endl;
+	for(int i=0; i<n; i++)
+	{
+		cout<<arr[i]<<endl;
+	}
+	cout<<endl;
+	
+	cout<<"Sorting array elements Using Counting Sort: "<<endl;
+	for(i=0; i<n; i++)
+	{
+		//count all index values in arr and then increment to count as 0 to 1 then 1 to 2 so on
+		++count[arr[i]];
+	}
+	for(i=1; i<=max; i++)
+	{
+		// in the count arr, add the index values as 1st value is 2 and 2nd is 1 then 2 + 1 = 3, 
+		// now 2nd index of count arr is 3 then add this 3 to next index value and so on
+		count[i] = count[i] + count[i-1];
+	}
+	for(i=n-1; i>=0; i--)
+	{
+		// start from arr's last index and then go to that index in count arr and decrement it
+		// after that store that arr's value in b
+		b[--count[arr[i]]] = arr[i];
+	}
+	for(i=0; i<n; i++)
+	{
+		// store b's values in arr
+		arr[i] = b[i];
+	}
+	
+	cout<<"Sorted List in Ascnding Order: "<<endl;
+	for(int i=0; i<n; i++)
+	{
+		cout<<arr[i]<<endl;
+	}
+	
+	cout<<"\nSorted List in Descending Order: "<<endl;
+	for(int i=n-1; i>=0; i--)
+	{
+		cout<<arr[i]<<endl;
+	}
+	
+}
